@@ -1,0 +1,124 @@
+/* - Family: [Montserrat] */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+/* [Fraunces] */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap');
+
+:root {
+  --Dark-cyan-color1: hsl(158, 36%, 37%);
+  --Cream-color2: hsl(30, 38%, 92%);
+
+  --Very-dark-blue: hsl(157, 35%, 21%);
+  --Dark-gravyish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--Cream-color2);
+}
+
+.container {
+  width: 720px;
+  height: 495px;
+  display: flex;
+}
+
+.box-img img {
+  width: 330px;
+  border-radius: 10px 0 0 10px;
+}
+
+.box-description {
+  width: 360px;
+  background: var(--white);
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-description .perfume {
+  padding: 10px;
+  margin: 30px 0 0 17px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--Dark-gravyish-blue);
+}
+
+.box-description h2 {
+  margin: 10px 0 0 30px;
+  width: 250px;
+  height: 130px;
+  font-size: 35px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.box-description .description {
+  margin: 5px 0 20px 30px;
+  width: 280px;
+  height: 100px;
+  color: var(--Dark-gravyish-blue);
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.price-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price-info h3 {
+  font-family: "Fraunces", sans-serif;
+  font-size: 40px;
+  margin-right: 25px;
+  margin-left: 30px;
+  color: var(--Dark-cyan-color1)
+}
+
+.price-info p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--Dark-gravyish-blue);
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 18px 90px;
+  margin: 30px auto;
+  background: var(--Dark-cyan-color1);
+  border-radius: 10px;
+  color: var(--white);
+}
+
+button p {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: var(--Very-dark-blue);
+}
