@@ -1,0 +1,91 @@
+@media (max-width: 425px) {
+  
+  .container {
+    flex-direction: column;
+    max-width: 95%;
+    max-height: 90%;
+    margin: 10px 10px;
+  }
+
+  .box-img {
+    background: transparent;
+    border-radius: 10px;
+  }
+
+  .box-img img {
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+    border-radius: 7px 7px 0 0;
+  }
+
+  .box-description {
+    max-width: 95vw;
+    height: 100vh;
+    border-radius: 0 0 7px 7px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-description .perfume {
+    font-size: 12px;
+    letter-spacing: 7px;
+    padding: 7px 0 0 0;
+    margin: 10px 0 2px 22px;
+  }
+
+  .box-description h2 {
+    padding: 0;
+    font-size: 2.3em;
+    width: 9em;
+    height: 2em;
+    color: rgba(39, 37, 37, 0.952);
+    margin: 10px 20px;
+  }
+
+  .box-description .description {
+    margin: 10px auto;
+    padding: 0;
+    max-width: 21em;
+    max-height: 6.2em;
+    font-size: 1em;
+    line-height: 1.6em;
+  }
+
+  .price-info h3 {
+    margin: 0 25px;
+    padding: 0;
+    max-width: 5.0em;
+    font-size: 2.3em;
+  }
+
+  .price-info p {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: 3px;
+  }
+
+  button {
+    padding: 13px 100px;
+    margin: 20px auto;
+    border-radius: 7px;
+  }
+  button p {
+    font-size: 1em;
+  }
+
+  button img {
+    width: 1.3em;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 375px) {
+  .box-description h2 {
+    font-size: 2.2em;
+  }
+
+  .box-description .description {
+    font-size: 0.9em;
+    margin: 10px auto;
+  }
+}
